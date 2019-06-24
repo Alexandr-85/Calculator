@@ -1,0 +1,80 @@
+body {
+    color: #000000;
+    height: 100%;    
+}
+
+.container {
+  background: #0ddabeeb;
+  width: 285px;
+  border-radius: 20px;
+  margin: 20px auto;
+  font-size: 25px;
+}
+
+.calc-monitor {
+  text-align: center;
+  height: 50px;
+}
+
+
+.calc-monitor input {
+    background: #ffffff;
+    text-align: right;
+    color: #000000;
+    padding-right: 5px;
+    margin-top: 15px;
+    height: 30px;
+    width: 240px;
+    border-radius: 10px;
+    font-size: 26px;   
+}
+
+.container table {
+    border-spacing: 14px; 
+    border-collapse: separate; 
+    table-layout:fixed; 
+    width:280px;    
+}
+
+.container table td button {
+   border: 1px solid grey;
+   padding: 7px 15px;
+   border-radius: 20px;
+   outline: none;
+   background: #ffffff;
+   cursor: pointer;
+   width: 100%;
+   height: 100%; 
+   text-transform: uppercase;
+   position: relative;
+   
+}
+
+.calc-buttons tr:nth-child(4) td:last-child {
+  height: 85px;
+}
+
+.number:hover {
+  background: green;
+  transition: 0.3s;
+}
+
+.zero:hover {
+  background: green;
+  transition: 0.3s;
+}
+
+.operator:hover {
+  background: orange;
+  transition: 0.3s;
+}
+
+.equal:hover {
+  background: orange;
+  transition: 0.3s;
+}
+
+.clear-btn:hover {
+  background: #d61d6a;
+  transition: 0.3s;
+}
